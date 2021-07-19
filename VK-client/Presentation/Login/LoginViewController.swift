@@ -12,7 +12,9 @@ final class LoginViewController: UIViewController {
 	@IBOutlet private weak var scrollView: UIScrollView!
 	@IBOutlet private weak var titleImageView: UIImageView!
 	@IBOutlet private weak var titleLabel: UILabel!
+	@IBOutlet weak var loginLabel: UILabel!
 	@IBOutlet private weak var loginTextField: UITextField!
+	@IBOutlet weak var passwordLabel: UILabel!
 	@IBOutlet private weak var passwordTextField: UITextField!
 	@IBOutlet private weak var loginButton: UIButton!
 	
